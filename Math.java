@@ -9,3 +9,6 @@
     public static int divide(int a, int b) {
         return a / b;
     }
+    // Divison
+System.out.println("Divided together; " + divide(num1, num2)); // Done by Manaal Aouttah
+System.out.println("First Number Divided from Second Number; " + divide(num1, num2)); // Done by Manaal Aouttah
