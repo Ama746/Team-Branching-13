@@ -1,14 +1,21 @@
-/********************************
-    Developer: Manaal Aouttah
-    University ID: 240124977
-    Function: Division
+/******************************
+ * Developer: Omar Fareh
+ * University ID: [230087675]
+ * Function: Takes two integers as input and returns the modulus (remainder)
+ ******************************/
+public class Math {
 
-    ********************************/
-
-    // Write your function here
-    public static int divide(int a, int b) {
-        return a / b;
+    public int Mod(int x, int y) {
+        if (y == 0) {
+            System.out.println("Error: Cannot divide by zero.");
+            return 0;
+        } else {
+            return x % y;
+        }
     }
-    // Divison
-System.out.println("Divided together; " + divide(num1, num2)); // Done by Manaal Aouttah
-System.out.println("First Number Divided from Second Number; " + divide(num1, num2)); // Done by Manaal Aouttah
+
+    public static void main(String[] args) {
+        Math m = new Math();
+        System.out.println("Result of 8 % 3 = " + m.Mod(8, 3)); 
+    }
+}
