@@ -4,7 +4,7 @@
     Function: This function takes two inputs as integers and returns the maximum one.
     ********************************/
 
-     public class MathFunctions
+     public class MathFunctions {
     public static void main(String[] args) {
                 // Max
         System.out.println("Maximum integer is: " + max);
@@ -17,3 +17,4 @@
             return b;
         }
     }
+}
