@@ -6,15 +6,16 @@
     ********************************/
 
      public class MathFunctions {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter  first number: ");
-        int a = sc.nextInt();
-        System.out.print("Enter  second number: ");
-        int b = sc.nextInt();
-                // Max
-        System.out.println("Maximum integer is: " + max(a,b));
-    }
+ public static void main(String[] args) {
+     try (Scanner sc = new Scanner(System.in)) {
+		System.out.print("Enter  first number: ");
+		 int a = sc.nextInt();
+		 System.out.print("Enter  second number: ");
+		 int b = sc.nextInt();
+		         // Max
+		 System.out.println("Maximum integer is: " + max(a,b));
+	}
+ }
     
     public static int max(int a, int b) {
         if (a > b ) {
